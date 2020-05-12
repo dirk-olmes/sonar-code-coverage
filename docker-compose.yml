@@ -1,0 +1,7 @@
+sonar:
+    image: sonarqube:7.9.3-community
+    container_name: sonar
+    restart: always
+
+    ports:
+        - 9000:9000
